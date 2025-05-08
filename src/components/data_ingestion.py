@@ -9,9 +9,9 @@ from dataclasses import dataclass
 
 @dataclass
 class DataIngestionConfig:
-    train_data_path: str = os.path.join('c:/Users/ramha/OneDrive/Desktop/AI and ML/AI and ML projects/mlproject1/artifacts', "train.csv")
-    test_data_path: str = os.path.join('c:/Users/ramha/OneDrive/Desktop/AI and ML/AI and ML projects/mlproject1/artifacts', "test.csv")
-    raw_data_path: str = os.path.join('c:/Users/ramha/OneDrive/Desktop/AI and ML/AI and ML projects/mlproject1/artifacts', "data.csv")
+    train_data_path: str = os.path.join('mlproject1/artifacts', "train.csv")
+    test_data_path: str = os.path.join('mlproject1/artifacts', "test.csv")
+    raw_data_path: str = os.path.join('mlproject1/artifacts', "data.csv")
 
 class DataIngestion:
     def __init__(self):
